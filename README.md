@@ -12,36 +12,8 @@ A secure, password-protected application for storing sensitive information, incl
 
 ## Installation
 
-### Option 1: Run from Python source
-
-1. Install required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-2. Run the application:
-
-```bash
-# Command-line version
-python secure_stash.py
-
-# GUI version
-python secure_stash_gui.py
-```
-
-### Option 2: Standalone Executables
-
-For Windows users, standalone executables are available that don't require Python to be installed.
-
-1. Run the packaging tool:
-```bash
-package.bat
-```
-
-2. This creates executables in the `dist` folder:
-   - `SecureStash-CLI.exe` - Command-line version
-   - `SecureStash-GUI.exe` - Graphical user interface version
+1. Install the latest release
+2. Run the GUI or CLI build
 
 ## Usage
 
@@ -80,23 +52,4 @@ The GUI version provides the same functionality with a more user-friendly interf
 
 ## Requirements
 
-See requirements.txt for all dependencies.
-
-## Packaging Your Own Executables
-
-If you want to create your own packaged executables:
-
-1. Make sure all requirements are installed:
-```
-pip install -r requirements.txt
-```
-
-2. Run the packaging script:
-```
-python package.py
-```
-
-Or simply use the included batch file:
-```
-package.bat
-``` 
+See requirements.txt for all dependencies if runnign via python.
